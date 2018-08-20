@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: ip
   become: yes
   tasks:
   - name: update packages
